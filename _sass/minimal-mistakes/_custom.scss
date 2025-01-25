@@ -1,0 +1,70 @@
+// #theme-toggle {
+//     background: none;
+//     border: none;
+//     cursor: pointer;
+//     font-size: 1.5rem;
+//     padding: 0.5rem;
+//     margin-left: 1rem;
+//     &:focus {
+//         outline: none;
+//     }
+// }
+
+// [data-theme="dark"] {
+//     background-color: #1a1a1a;
+//     color: #ffffff;
+// }
+  
+// [data-theme="light"] {
+//     background-color: #ffffff;
+//     color: #000000;
+// }
+
+/* Projects page styles */
+ .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .project-item {
+    // background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-teaser-img {
+    width: 100%;
+    height: auto;
+    // border-bottom: 2px solid #ccc;
+  }
+  
+  .project-item h3 {
+    margin: 15px;
+    font-size: 1.2em;
+    // color: #333;
+  }
+  
+  .project-item p {
+    margin: 0 15px 15px;
+    font-size: 1em;
+    // color: #666;
+  }
+  
+  .project-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #projects-header {
+    margin-top: 2em;
+    text-align: center;
+  }
+  
